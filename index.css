@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloque {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+
+    background-image: url('assets/header.fw.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+/*------izquierda y derecha ----*/
+
+.izquierda,
+.derecha {
+    width: 47%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.izquierda {
+    float: left;
+    text-align: left;
+}
+
+.subtitulo {
+    color: #c1c1c1;
+}
+
+.titulo-principal {
+    color: #fff;
+    font-size: 60px;
+}
+
+.descripcion {
+    color: #c1c1c1;
+    font-weight: 300;
+}
+
+.button {
+    padding: 17px 35px;
+    background: #883131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+
+
+}
+
+
+.derecha {
+    float: right;
+}
+
+.img-pres {
+    width: 100%;
+}
+
+/* bloque dos  */
+
+
+.bloque-dos {
+    padding: 50px;
+
+}
+
+.bloque-dos .derecha-dos {
+    text-align: left;
+}
+
+.img-elegi {
+    width: 80%;
+}
+
+.bloque-dos .derecha-dos .texto-naranja {
+    color: #e94f2b;
+}
+
+.bloque-dos .bloque-dos h1 {
+    color: #424141;
+    font-size: 35px;
+
+}
+
+.bloque-dos .bloque-dos p {
+    color: #7d7a7a;
+    font-weight: 300;
+
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.opcion {
+    width: 47%;
+    border: solid 1px #ccc;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid#d43a01;
+    border-radius: 7px;
+
+}
+
+.opcion:hover {
+    color: #df3a01;
+}
+
+.opcion .img-opciones {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.texto-opciones {
+    margin: 15px;
+}
+
+/*  bloque 3  */
+
+.bloque-tres {
+    padding: 50px 0px;
+
+
+}
+
+.princial-servicios {
+    color: #424141;
+    font-size: 35px;
+
+}
+
+.texto-naranja {
+    color: #f94f2b;
+    font-size: 20px;
+}
+
+.contenedores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+
+}
+
+.contenedores .contenidos {
+    width: 45%;
+    height: 150px;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #c1c1c1;
+    text-align: left;
+    box-shadow: 0px 0px #ccc;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.img-servicios {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.parrafo {
+    color: #7d7a7a;
+    line-height: 25px;
+}
+
+/* BLOQUE CUATRO*/
+.bloque-cuatro {
+    background: #f5f5f0;
+}
+
+.contenedor-planes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+
+}
+
+.plan {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 7px;
+}
+
+
+.titulo-plan {
+    padding: 15px;
+    background: #f31f1f;
+    color: #fff;
+    float: left;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 35px;
+
+}
+
+.img-plan {
+    width: 80%;
+
+}
+
+.plan ul {
+    margin-top: 20px;
+}
+
+.plan ul li {
+    height: 50px;
+}
+
+.boton-planes {
+    padding: 17px 35px;
+    background: #b83131;
+    color: #fff;
+    border-radius: 7px;
+    border: 8px;
+    width: 100%;
+}
+
+
+
+.footer {
+    height: 480px;
+    width: 100%;
+    padding: 40px 0px;
+    background-image: url('assets/footer.fw.png');
+}
+
+.footer .centrar .izquierda {
+    color: #ccc;
+}
+
+.footer .centrar .izquierda h4,
+p {
+    text-align: center;
+}
+
+.footer .centrar .izquierda p {
+    border-top: 1px solid #fff;
+}
+
+.entrada-form {
+    width: 70%;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+}
+
+.boton-contact {
+    padding: 5px 10px;
+}
